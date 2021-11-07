@@ -17,7 +17,8 @@ How to get the project running ?
          3. RUN the following commands:
                      > pip3 install -r requirements.txt 
                      > python3 manage.py runserver
-         
+
+After running API, you can check the data fetched in the API response &/or in admin panel as well        
 
 Please let me know if you have any queries
 
