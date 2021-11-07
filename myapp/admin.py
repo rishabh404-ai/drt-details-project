@@ -3,16 +3,16 @@ from .models import *
 
 # Register your models here.
 class Case_Proceeding_Details_Admin(admin.ModelAdmin):
-    list_display = ('id','court_name','causelist_date','purpose','user_id')
+    list_display = ('id','user_id','court_name','causelist_date','purpose')
 
 class Case_Listing_Details_Admin(admin.ModelAdmin):
-    list_display = ('id','case_listing_details')
+    list_display = ('id','user_id','case_listing_details')
 
 class DRT_Case_Status_Report_Admin(admin.ModelAdmin):
-    list_display = ('id','diary_no')
+    list_display = ('id','user_id','diary_no','case_type','case_no','date_of_filling','applicant','respondent','applicant_advocate','respondent_advocate')
 
 class SearchedDataAdmin(admin.ModelAdmin):
-    list_display = ('id','drt_or_drat')
+    list_display = ('id','drt_or_drat','party_name','no_of_applicants')
 
 class Property_Details_Admin(admin.ModelAdmin):
     list_display = ('id','user_id','property_type','detail_of_property')
