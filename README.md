@@ -3,8 +3,7 @@
 
 
 API Endpoint POSTMAN COLLECTION Link:
-
-        https://www.getpostman.com/collections/73d4e5e05824f23c1f04
+           https://www.getpostman.com/collections/73d4e5e05824f23c1f04
 
 
 How to get the project running ?
